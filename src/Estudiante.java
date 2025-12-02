@@ -1,13 +1,10 @@
 public class Estudiante {
         private String nombre;
         private String id;
-
-        // Constructor
         public Estudiante(String nombre, String id) {
             this.nombre = nombre;
             this.id = id;
         }
-        //Obtener informacion
         public String getNombre() {
             return nombre;
         }
